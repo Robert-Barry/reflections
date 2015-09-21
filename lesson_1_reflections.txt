@@ -1,0 +1,94 @@
+*******************************************************************************
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Using diff narrowed down the amount of code that had be checked to find the
+bug. This is because diff only shows the change from one file to the next. If
+one had to search through a hundred or more lines of code to find where a bug
+was introduced, it would take much, much longer. With diff, it cuts the process
+down a good bit.
+
+
+
+*******************************************************************************
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+When programmers introduce bugs into a program, they may not show themselves
+immediately. Having multiple older versions of that program will allow
+a programmer to quickly look back through the different versions to see where
+and how the bug was introduced. Also, having multiples versions allows
+programmers greater latitude to experiment with new code without worrying
+about compromising older, working code.
+
+
+
+******************************************************************************
+
+What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, vs having versions automatically saved, like 
+Google Docs does?
+
+Being able to manually save a commit means that there is a human factor in 
+the commits. A developer can save a commit when it logically makes sense
+rather than at a random moment in programming. Automatic commits would be 
+extremely difficult to search and find stable previous versions. However,
+manual commits means that same human factor could lead to creating too many
+commits, or too few. People are generally lazy and I can see someone not
+making enough commits becuase they forget or just don't do it for whatever
+reason.
+
+
+
+******************************************************************************
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+Version control systems that are geared specifically towards code need to be
+able to save multiple files. As the example in the video, software often uses
+multiple files that link together to create one program. It makes more sense
+in this instance to track the entire program rather than just one file since
+a change in one file will affect a change in another file. When tracking docs
+such as those in Google Docs, each written page does not rely on another file
+to be read. There is little reason to link two documents togther since changes
+do not affect other documents.
+
+
+
+******************************************************************************
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log allows the person viewing the repository to read the comments of 
+changes in the different commits. This allows them to easily see what was done
+in that commit. Git diff then allows the user to drill down into two commits
+and see what the differences are between the two commits, i.e. what lines were
+added or changed.
+
+
+
+******************************************************************************
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+Since all previouse versions of code are saved using version control, it is
+fairly simple to return to working versions whenever something changes or
+breaks the program. This means experiementing and trying new things can get
+easier and a programmer can be more confident in trying something different.
+
+
+
+******************************************************************************
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+As I progress as a programmer, I am creting more complicated programs. As I do
+so, I also make more complicated errors and experiment more as well. Trying to
+keep track of bugs and to experiment is difficult when using straight files. 
+Version control like Git will help to simplify this process and allow me more
+freedom to code and make great software.

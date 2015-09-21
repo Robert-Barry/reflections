@@ -1,0 +1,7 @@
+*******************************************************************************
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, it creates a repository for all the files
+in the folder. You do this so that you can begin to create commits on those
+files and start keeping track of all the versions.
