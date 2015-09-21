@@ -19,3 +19,14 @@ of the commits. The staging are is valuable in case you change your mind in
 making a commit and decide to not do so. It also works as a check to make sure
 you are commiting all of the files you want to commit, and not commiting files
 you do not want to.
+
+
+
+*******************************************************************************
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+By checking git diff and git diff --staged, you can assure that the changes 
+you are making are only one logical change by comparing the new commit to the
+previous commit.
