@@ -30,3 +30,29 @@ change?
 By checking git diff and git diff --staged, you can assure that the changes 
 you are making are only one logical change by comparing the new commit to the
 previous commit.
+
+
+
+*******************************************************************************
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches will help any time one might want to make a change in the code that
+will change the more basic functioning of the code without disrupting the 
+original code itself. What this means is that one could experiment with code,
+or add a feature, while still maintaining the code of the original project.
+In this way, you could have a "master" working project, with branches 
+that represent the changes to the original.
+
+
+
+
+*******************************************************************************
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams show the tree structure of a repository. It starts at the initial
+commit, then can branch out to different commits, or different branches, much
+like the structure of a tree. In fact, it is EXACTLY like the structure of a
+tree, hence the name "branch".
