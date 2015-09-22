@@ -56,3 +56,31 @@ Diagrams show the tree structure of a repository. It starts at the initial
 commit, then can branch out to different commits, or different branches, much
 like the structure of a tree. In fact, it is EXACTLY like the structure of a
 tree, hence the name "branch".
+
+
+
+
+*******************************************************************************
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging two branches is that one entire branch now becomes part
+of a completely different branch, along with all of its commits. It is
+represented in the diagram the way it is because the commits from the merged
+branch retain their parental relationship to previouse commits, even though
+they now mix with the other commits.
+
+
+
+
+
+*******************************************************************************
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+The pros of automatic merging is that, when right, the commits will merge
+easily without a lot of work. However, the downside is that there will be
+conflicts that need resolves and will eat up any time gained by the automatic
+merge.
