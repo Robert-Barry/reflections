@@ -11,3 +11,11 @@ multiple people, adding a lot of flexibility to the repository.
 
 
 *******************************************************************************
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+The biggest issue is when working with others. If someone else changes the
+repository before you have a chance to pull for yourself, you may wind up
+with wild conflicts that could create a ton of problems. You might also
+lose the data thet you were working on by automatically pulling from GitHub.
