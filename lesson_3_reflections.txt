@@ -19,3 +19,19 @@ The biggest issue is when working with others. If someone else changes the
 repository before you have a chance to pull for yourself, you may wind up
 with wild conflicts that could create a ton of problems. You might also
 lose the data thet you were working on by automatically pulling from GitHub.
+
+
+
+*******************************************************************************
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Forks allow a person on GitHub to have a copy of a repository that retains
+a link to the original repository withouy making changes in the original.
+A clone is a wholesale copy of a repository without any attribution. A branch
+is a new commit off of the main tree of the repository that can be merged
+back into the main part. Use a fork to make a copy while attributing the
+author of the orignal code, use clone to bring a repository onto your own
+computer from GitHub, and use a branch when making small adjustments to your
+own repository that you do not want affecting the main code.
