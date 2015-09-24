@@ -35,3 +35,14 @@ back into the main part. Use a fork to make a copy while attributing the
 author of the orignal code, use clone to bring a repository onto your own
 computer from GitHub, and use a branch when making small adjustments to your
 own repository that you do not want affecting the main code.
+
+
+
+*******************************************************************************
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+Having a copy of the remote branch stord locally allows one to compare the local
+and remote branches, as well as keep track of how the branches are deviating
+when commiting to the local branch.
